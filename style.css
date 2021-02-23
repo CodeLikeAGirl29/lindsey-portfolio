@@ -23,9 +23,12 @@ img {
   border: 2px solid red;
   border-radius: 8px;
   display: block;
+  padding: 20pxo;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
+  text-align: center;
+  object-fit: : contain;
 }
 
 main img {
@@ -416,7 +419,6 @@ footer i {
     flex-basis: 30%;
     border-bottom: none;
   }
-
   #div-2 p {
     border-left: 1px solid #555;
     border-right: 1px solid #555;

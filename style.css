@@ -39,6 +39,11 @@ img.image-enhanced {
   border-radius: 8px;
 }
 
+.box {
+position: relative;
+display: inline-block;
+}
+
 .group {
   display: flex;
   flex-direction: column;

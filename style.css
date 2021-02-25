@@ -287,12 +287,12 @@ footer {
   margin-top: 40px;
   margin-bottom: 0;
   */
-  position: fixed;
   bottom: 0;
   left: 0;
   height: 70px;
   width: 100%;
   background-color: gray;
+  margin-top:auto; 
 }
 
 footer p {

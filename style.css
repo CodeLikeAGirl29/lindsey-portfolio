@@ -186,6 +186,16 @@ form textarea {
   flex: 2;
 }
 
+button {
+	padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+}
+
 /* Navbar */
 
 header nav {
@@ -216,6 +226,24 @@ header nav ul li a:hover {
 ;
 }
 
+/* My Iframe style */
+.map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /*
  * Allow only vertical resizing of textareas.

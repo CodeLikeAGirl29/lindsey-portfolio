@@ -89,8 +89,7 @@ color: #000;
 	margin: auto;	
 }
 
-#div-2,
-#div-3 {
+#divder {
   flex: 0 1 150px;
   margin: 5px;
 }

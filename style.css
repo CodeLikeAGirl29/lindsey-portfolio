@@ -19,6 +19,7 @@ html {
   line-height: 1.4;
 }
 
+/* 
 img {
   border: 2px solid #98bfad;
   border-radius: 8px;
@@ -29,6 +30,12 @@ img {
   width: auto;
   text-align: center;
   object-fit: : contain;
+}
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 main img {

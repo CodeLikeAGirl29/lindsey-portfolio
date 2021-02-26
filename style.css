@@ -316,6 +316,8 @@ footer {
   width: 100%;
   background-color: gray;
   margin-top:auto; 
+  clear: both;
+  padding: 20px 20px;
 }
 
 footer p {

@@ -13,25 +13,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
 html {
-  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
   font-size: 1rem;
   line-height: 1.4;
 }
-
-/* 
-img {
-  border: 2px solid #98bfad;
-  border-radius: 8px;
-  display: block;
-  padding: 20pxo;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  text-align: center;
-  object-fit: : contain;
-}
-*/
 
 img {
   border: 2px solid red;
@@ -54,9 +40,6 @@ img.image-enhanced {
 }
 
 .group {
-  /*display: flex;
-  flex-direction: column;
-  */
 margin-top: 10px;
 margin-left: 15%;
 margin-right: 15%;
@@ -85,11 +68,21 @@ color: #000;
 }
 
 .wrapper {
-	width: 580px;
-	margin: auto;	
+margin-top:10px;
+height:auto;
+flex-wrap: wrap;
 }
 
-#divder {
+.flex-items
+{
+position:relative;
+width:650px;
+height:auto;
+top:10px;
+margin-left:10px;
+}
+
+#divider {
   flex: 0 1 150px;
   margin: 5px;
 }
@@ -187,13 +180,21 @@ form textarea {
 }
 
 button {
-	padding:10px;
-  border:none;
-  background-color:#3F51B5;
-  color:#fff;
-  font-weight:600;
-  border-radius:5px;
-  width:100%;
+  border: 2px solid #98bfad;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.demo {
+  border-color: #98bfad;
+  color: white;
+}
+
+.demo:hover {
+  background: #EE22CC;
+  color: white;
 }
 
 /* Navbar */
@@ -281,6 +282,7 @@ body {
   color: black;
   display: flex;
   justify-content: center;
+  min-height: 100vh;
 }
 
 h2 {
@@ -305,23 +307,18 @@ p span {
   font-family:
 }
 
-footer {
-  /*background-color: #999;
-  margin-top: 40px;
-  margin-bottom: 0;
-  */
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  background-color: gray;
-  margin-top:auto; 
-  clear: both;
-  padding: 20px 20px;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    flex: 1;    /* same as flex-grow: 1; */
 }
 
-footer p {
+.footer p {
   color: #b2d3e1;
+  background-color: grey;
   font-family:  'Staatliches', cursive;
   text-align: center;
 }

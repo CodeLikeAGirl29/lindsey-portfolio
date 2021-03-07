@@ -20,12 +20,11 @@ html {
 }
 
 img {
-max-width: 100%;
-height: auto;
-width: auto;
-text-align: center;
-padding: 15px;
-border: 3px solid red;
+  border: 2px solid red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 main img {
@@ -37,14 +36,7 @@ img.image-enhanced {
 }
 
 .rounded {
-    border-radius: 50%;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
+    border-radius: 5px;
 }
 
 .group {
@@ -79,12 +71,13 @@ color: #000;
 margin-top:10px;
 height:auto;
 flex-wrap: wrap;
+display: inline-block;
 }
 
 .flex-items
 {
 position:relative;
-width:650px;
+width:550px;
 height:auto;
 top:10px;
 margin-left:10px;
@@ -181,6 +174,7 @@ form textarea {
   font-size: 1rem;
   flex: 1;
   margin: 10px;
+  float: left;
 }
 
 .item-double {
@@ -197,7 +191,7 @@ button {
 
 .demo {
   border-color: #98bfad;
-  color: white;
+  color: black;
 }
 
 .demo:hover {
@@ -231,13 +225,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #b2d3e1;
-}
-
-.menu li:before {
-  content: "// ";
-  position: relative;
-  left: -1px;
+  color: #b2d3e1
+;
 }
 
 /* My Iframe style */
@@ -314,10 +303,6 @@ h2 {
 
 p span {
   font-family: 'Lora', sans-serif;
-}
-
-.item p {
-  font-family:
 }
 
 body {

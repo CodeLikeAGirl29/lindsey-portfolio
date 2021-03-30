@@ -1,14 +1,17 @@
-# This is Lindsey's portfolio
+# My Portfolio
 
-####  My first project required for the coding bootcamp, Bloc.
+Hi! My name is **Lindsey** and this is my portfolio as required in the coding bootcamp, Bloc.
 
-#### By _**Lindsey aka CodeLikeaGirl29**_
+The link can be found [here](https://codelikeagirl29.github.io/lindsey-portfolio/).
 
-## Skills Learned & Resources
 
+## Skills
 * _HTML/CSS_
-* _Mozilla_
+* _JavaScript/jQuery_
+* _Asynchronous JavaScript & API_
 
-## Description
+## References
 
-_There's always more to come!_
+[Codeacademy](http://ssqt.co/mQh1UlY)
+[Mozilla MDN](https://developer.mozilla.org/en-US/)
+[Learn JavaScript & jQuery book](http://javascriptbook.com/)

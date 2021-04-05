@@ -558,3 +558,17 @@ footer i {
     page-break-after: avoid;
   }
 }
+
+       @media screen and (max-width: 500px) { 
+
+  
+
+            .item, .container{ 
+
+                width: 70%; 
+
+            } 
+
+        } 
+
+

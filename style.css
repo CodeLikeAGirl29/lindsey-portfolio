@@ -18,7 +18,7 @@ html {
   font-size: 1rem;
   line-height: 1.4;
 }
-
+/*
 img{
   border: 2px solid red;
   border-radius: 8px;
@@ -36,6 +36,7 @@ main img {
 img.image-enhanced {
   border-radius: 8px;
 }
+*/
 
 .rounded {
     border-radius: 5px;

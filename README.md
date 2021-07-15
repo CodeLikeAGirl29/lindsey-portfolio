@@ -12,6 +12,6 @@ The link can be found [here](https://codelikeagirl29.github.io/lindsey-portfolio
 
 ## References
 
-[Codeacademy](http://ssqt.co/mQh1UlY)
-[Mozilla MDN](https://developer.mozilla.org/en-US/)
-[Learn JavaScript & jQuery book](http://javascriptbook.com/)
+- [Codeacademy](http://ssqt.co/mQh1UlY)
+- [Mozilla MDN](https://developer.mozilla.org/en-US/)
+- [Learn JavaScript & jQuery book](http://javascriptbook.com/)
